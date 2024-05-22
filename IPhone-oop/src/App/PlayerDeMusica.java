@@ -5,7 +5,8 @@ import java.util.ArrayList;
 public interface PlayerDeMusica {
     public String musicaAtual = "Rage Against The Machine";
     public ArrayList<String> playlist = new ArrayList<String>();
-    public int volume = 1;
+    
+    
 
     //Metodos abastratos para serem implementados na classe IPhone
     public abstract void reproduzirMusicas();
